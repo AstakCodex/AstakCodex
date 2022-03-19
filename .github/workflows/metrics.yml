@@ -23,7 +23,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: AstakCodex
+          user: JayantGoel001
           template: classic
           base: header, activity, community, repositories
           config_timezone: America/Denver
