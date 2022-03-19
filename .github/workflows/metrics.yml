@@ -8,7 +8,7 @@ on:
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -23,7 +23,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: JayantGoel001
+          user: MaksadAnnamuradov
           template: classic
           base: header, activity, community, repositories
           config_timezone: America/Denver
